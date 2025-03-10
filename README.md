@@ -5,10 +5,15 @@
 [![Documentation][docs-badge]][docs-url]
 
 [build-badge]: https://github.com/ebkalderon/renderdoc-rs/actions/workflows/ci.yml/badge.svg
+
 [build-url]: https://github.com/ebkalderon/renderdoc-rs/actions
+
 [crate-badge]: https://img.shields.io/crates/v/renderdoc.svg
+
 [crate-url]: https://crates.io/crates/renderdoc
+
 [docs-badge]: https://docs.rs/renderdoc/badge.svg
+
 [docs-url]: https://docs.rs/renderdoc
 
 Rust bindings to [RenderDoc], a popular graphics debugger.
@@ -20,18 +25,22 @@ quick and easy frame captures and detailed introspection of any application
 using [Vulkan], [Direct3D 11], [Direct3D 12], [OpenGL], and [OpenGL ES].
 
 [Vulkan]: https://www.vulkan.org/
+
 [Direct3D 11]: https://learn.microsoft.com/en-us/windows/win32/direct3d11/atoc-dx-graphics-direct3d-11
+
 [Direct3D 12]: https://learn.microsoft.com/en-us/windows/win32/direct3d12/direct3d-12-graphics
+
 [OpenGL]: https://www.khronos.org/opengl/
+
 [OpenGL ES]: https://www.khronos.org/opengles/
 
 These bindings require that RenderDoc be installed on the target machine, with
 either `renderdoc.dll` or `librenderdoc.so` visible from your `$PATH`.
 
 For more details on how to use this API to integrate your game or renderer with
-the RenderDoc profiler, consult the [in-application API][in-app] documentation.
+the RenderDoc profiler, consult the [in-application API][in-_app] documentation.
 
-[in-app]: https://renderdoc.org/docs/in_application_api.html
+[in-_app]: https://renderdoc.org/docs/in_application_api.html
 
 ## Example
 

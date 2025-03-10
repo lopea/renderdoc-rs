@@ -66,7 +66,7 @@ pub trait Version {
             let lib = LIBRARY
                 .get_or_try_init(|| {
                     // TODO: Use constant from `libloading`, once added upstream.
-                    const RTLD_NOLOAD: i32 = 0x4;
+                    //const RTLD_NOLOAD: i32 = 0x4;
 
                     let flags = libloading::os::unix::RTLD_NOW;
                     libloading::os::unix::Library::open(Some(lib_path), flags).map(Into::into)
